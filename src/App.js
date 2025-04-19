@@ -26,6 +26,7 @@ function App() {
           console.error("No valid cookies found. User is not logged in.");
           setIsValidUser(false);
           setLoading(false);
+          window.location.href = "http://enviroaitest.com/login";
           return;
         }
 
